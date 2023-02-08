@@ -1,0 +1,135 @@
+header{
+    background-color:lightgray;
+    text-transform: uppercase;  
+    width:100%;
+    height: 100px;
+}
+ul{
+    float:right;
+    list-style:none;
+    margin:0px;
+    padding:15px;
+    
+}
+.new{
+    background-color:rgba(255, 255, 255, 0.781);
+    position: absolute;
+    height: 60%;
+    width:35%;
+    border-radius: 55px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: 0.5px solid black;
+    
+}
+.inputAdicionar{
+    position:absolute;
+    transform: translate(-50%, -50%);
+    left:50%;
+    top:30%;
+    border-radius: 10px;
+    width:40%;
+    height:8%;
+    font-size: 20px;
+    
+}
+a{
+    color:inherit;
+    text-decoration:none;
+}
+.menu2{
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.ult{
+    margin: 40px;
+    margin-left:100px;
+    position:absolute;
+    
+}
+.lit{
+    float:left;
+    position: relative;
+    background-color: white;
+    height: 430px;
+    width: 380px;
+    margin-right: 100px;
+    border-radius: 30px;
+}
+h1,p{
+    margin-left: 10px;
+}
+.notbut{
+    background:lightgray;
+    border-radius: 8px;
+    border:none;
+    font-size: 18px;
+    display: block;
+    margin:auto;
+    width: 65%;
+    height: 13%;
+    position: absolute;
+    bottom:0;
+    top:370px;
+    left:78px;
+    
+}
+
+li {
+    padding:15px;
+    display:inline-block;
+    margin-right:10px;
+    font-size:17px;
+}
+body{
+    font-family: montserrat;
+    font-size:20px;
+    font-weight: bold;
+    background-color:#ededed;
+}
+
+input{
+    width:250px;
+    height: 27px;
+    margin-right:300px;
+}
+
+.serach-container {
+    float:right;
+    
+}
+
+
+input[type=text]{
+    padding: 6px;
+    border:none;
+    border-radius: 30px;
+
+
+}
+
+
+
+.logo{
+    line-height:90px;
+    margin-left:80px;
+    font-size:24px;
+
+}
+
+footer{
+    
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-transform: uppercase;
+    height: 60px;
+    line-height: 60px;
+
+}

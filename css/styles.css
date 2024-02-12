@@ -1,143 +1,120 @@
-header{
-    background-color:#c4170c;
-    text-transform: uppercase;
-    position: absolute;
-    width:100%;
-    height: 100px;
-    color:white;
-    left:0%;
-    top:0%;
-    
+header {
+  background-color: rgb(0, 122, 163);
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  position: relative; /* Adicionado para posicionamento relativo */
 }
-ul{
-    float:right;
-    list-style:none;
-    margin:0px;
-    padding:15px;
+
+header li {
+  display: inline-block;
+  padding-left: 50px;
 }
-.new{
-    background-color:rgba(255, 255, 255, 0.877);
-    position: absolute;
-    height: 60%;
-    width:35%;
-    border-radius: 55px;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    border: 0.5px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+header h1 {
+  padding-left: 5%;
+  margin: 0;
+  font-size: 30px;
 }
-.inputAdicionar{
-    position:absolute;
-    transform: translate(-50%, -50%);
-    left:50%;
-    top:30%;
-    border-radius: 10px;
-    width:40%;
-    height:8%;
-    font-size: 20px;
+
+input {
+  border-radius: 100px;
+  line-height: 30px;
+  width: 160%;
+  font-size: 20px;
 }
-.footer{
-    background-color:#ffffff;
-    position: absolute;
-    left:0%;
-    position:absolute;
-    height: 5%;
-    border:1px solid rgb(211, 211, 211);
-    
+
+.cadastro {
+  list-style: none;
+  display: block;
+  text-align: center;
 }
-a{
-    color:inherit;
-    text-decoration:none;
+
+.cadastro input {
+  width: 30%;
+  margin: 10px;
 }
-.menu2{
-    position: absolute;
-    top:20%;
-    left:50%;
-    transform: translate(-50%, -50%);
+
+.menu {
+  margin-left: 20%;
 }
-.ult{
-    margin: 40px;
-    margin-left:100px;
-    position:absolute;
+
+a,
+h1 {
+  font-family: montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
 }
-.cadastrarNoticia{
-    text-align: center;
-    display:block;
-    font-size:24px;
+
+p {
+  font-family: montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
 }
-.lit{
-    float:left;
-    position: relative;
-    background-color: white;
-    height: 430px;
-    width: 400px;
-    margin-top: 100px;
-    margin-right: 100px;
-    border:0.1px solid rgb(202, 202, 202);
+
+body {
+  margin: 0;
+  background-color: rgb(236, 236, 236);
 }
-h1,p{
-    margin-left: 10px;
+
+.container {
+  display: flex;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  flex-wrap: wrap;
 }
-.notbut{
-    background:lightgray;
-    border-radius: 8px;
-    border:none;
-    font-size: 18px;
-    display: block;
-    margin:auto;
-    width: 65%;
-    height: 13%;
-    position: absolute;
-    bottom:0;
-    top:370px;
-    left:78px;
+
+.coluna {
+  flex: 1 calc(22%);
+  max-width: calc(22%);
+  background-color: rgb(247, 247, 247);
+  border: 1px solid black;
+  border-radius: 10%;
+  text-align: center;
+  height: 300px;
+  margin: 1%;
 }
-.submitNoticia{
-    width: 95%;
-    font-size: 18px;
+
+.coluna p {
+  font-size: 16px;
 }
-li {
-    padding:15px;
-    display:inline-block;
-    margin-right:10px;
-    font-size:17px;
+
+.coluna button {
+  border-radius: 10%;
+  margin-top: 30%;
 }
-body{
-    font-family: montserrat;
-    font-size:20px;
-    font-weight: bold;
-    background-color:#ededed;
+
+.coluna button:hover {
+  background-color: rgb(0, 122, 163);
 }
-input{
-    width:500px;
-    height: 27px;
-    margin-right:300px;
-    font-size: 18px;
+
+.cadastro button {
+  border-radius: 10%;
 }
-.serach-container {
-    float:right;
+
+.cadastro button:hover {
+  background-color: rgb(0, 122, 163);
 }
-input[type=text]{
-    padding: 6px;
-    border: 1px solid black;
-    border-radius: 30px;
+
+.content {
+  margin-bottom: 10%;
 }
-.logo{
-    line-height:90px;
-    margin-left:80px;
-    font-size:24px;
-}
-footer{
-    background-color: lightgray;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-transform: uppercase;
-    height: 60px;
-    line-height: 60px;
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 5%;
+  background-color: rgb(0, 122, 163);
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

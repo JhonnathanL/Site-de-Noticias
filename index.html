@@ -1,41 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8"/>
-      <meta viewport="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="css/styles.css">
-      <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-   </head>
-   <body>
-      <header>
-         <nav>
-            <a class="logo" href="index.html">Mega Notícias</a>
-            <ul>
-               <li><a class="menu" href="pagina2.html">Cadastrar Notícias</a></li>
-               <li><a class="menu">Exibir Notícias</a></li>
-               <li>
-                  <div class="search-container">
-                     <form>
-                        <input type="text" name="search"></input>
-                     </form>
-                  </div>
-               </li>
-            </ul>
-         </nav>
-      </header>
-      <ul class="ult" id="ult2">
-         <li class="lit">
-            <h1>Notícia 1</h1>
-            <p> Olá Esta é uma Noticia Aleatoria Testando O Codigo </p>
-            <button class="notbut">Acessar</button>
-         </li>
-         <li class="lit">
-            <h1>Notícia 1</h1>
-            <p> Olá Esta é uma Noticia Aleatoria Testando O Codigo </p>
-            <button class="notbut">Acessar</button> 
-         </li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta viewport="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Site de Notícias</h1>
+      <ul class="menu">
+        <li><a href="pagina.html">Cadastrar Notícias</a></li>
+        <li><a href="index.html">Exibir Notícias</a></li>
+        <li><input type="text" /></li>
       </ul>
-      <script src="main.js"></script> 
-      <footer class="footer">Programado em 03/01/2023</footer>
-   </body>
+    </header>
+    <div class="content">
+      <div class="container" id="container">
+        <div class="coluna">
+          <h1>Notícia 1</h1>
+          <p>Olá Esta é uma Notícia Aleatória</p>
+          <a href=""
+            ><button class="notbut"><p>Acessar</p></button></a
+          >
+        </div>
+        <div class="coluna">
+          <h1>Notícia 2</h1>
+          <p>Olá Esta é uma Notícia Aleatória</p>
+          <a href=""
+            ><button class="notbut"><p>Acessar</p></button></a
+          >
+        </div>
+        <div id="noticias"></div>
+      </div>
+
+      <div class="cadastro">
+        <li class="cadastrarNoticia"><p>Título</p></li>
+        <li class="cadastrarNoticia">
+          <input type="text" id="tituloNoticia" class="Noticia" />
+        </li>
+        <li class="cadastrarNoticia"><p>Notícia</p></li>
+        <li class="cadastrarNoticia">
+          <input type="text" id="conteudoNoticia" class="Noticia" />
+        </li>
+        <li class="cadastrarNoticia"><p>Autor</p></li>
+        <li class="cadastrarNoticia">
+          <input type="text" id="autorNoticia" class="Noticia" />
+        </li>
+        <li class="cadastrarNoticia">
+          <button id="adicionarBotao">
+            <p>Adicionar Notícia</p>
+          </button>
+        </li>
+      </div>
+    </div>
+    <footer><p>Programado em 03/01/2023</p></footer>
+    <script src="js/main.js"></script>
+  </body>
 </html>

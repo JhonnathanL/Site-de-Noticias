@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta viewport="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Site de Notícias</h1>
+      <ul class="menu">
+        <li><a href="pagina.html">Cadastrar Notícias</a></li>
+        <li><a href="index.html">Exibir Notícias</a></li>
+        <li><input type="text" /></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="container" id="container">
+        <div class="coluna">
+          <h1>Notícia 1</h1>
+          <p>Olá Esta é uma Notícia Aleatória</p>
+          <a href=""
+            ><button class="notbut"><p>Acessar</p></button></a
+          >
+        </div>
+        <div class="coluna">
+          <h1>Notícia 2</h1>
+          <p>Olá Esta é uma Notícia Aleatória</p>
+          <a href=""
+            ><button class="notbut"><p>Acessar</p></button></a
+          >
+        </div>
+        <div id="noticias"></div>
+      </div>
+
+      <div class="cadastro">
+        <li class="cadastrarNoticia"><p>Título</p></li>
+        <li class="cadastrarNoticia">
+          <input type="text" id="tituloNoticia" class="Noticia" />
+        </li>
+        <li class="cadastrarNoticia"><p>Notícia</p></li>
+        <li class="cadastrarNoticia">
+          <input type="text" id="conteudoNoticia" class="Noticia" />
+        </li>
+        <li class="cadastrarNoticia"><p>Autor</p></li>
+        <li class="cadastrarNoticia">
+          <input type="text" id="autorNoticia" class="Noticia" />
+        </li>
+        <li class="cadastrarNoticia">
+          <button id="adicionarBotao">
+            <p>Adicionar Notícia</p>
+          </button>
+        </li>
+      </div>
+    </div>
+    <footer><p>Programado em 03/01/2023</p></footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

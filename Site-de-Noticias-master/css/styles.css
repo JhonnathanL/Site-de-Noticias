@@ -1,0 +1,120 @@
+header {
+  background-color: rgb(0, 122, 163);
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  position: relative; /* Adicionado para posicionamento relativo */
+}
+
+header li {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+header h1 {
+  padding-left: 5%;
+  margin: 0;
+  font-size: 30px;
+}
+
+input {
+  border-radius: 100px;
+  line-height: 30px;
+  width: 160%;
+  font-size: 20px;
+}
+
+.cadastro {
+  list-style: none;
+  display: block;
+  text-align: center;
+}
+
+.cadastro input {
+  width: 30%;
+  margin: 10px;
+}
+
+.menu {
+  margin-left: 20%;
+}
+
+a,
+h1 {
+  font-family: montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+}
+
+p {
+  font-family: montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(236, 236, 236);
+}
+
+.container {
+  display: flex;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  flex-wrap: wrap;
+}
+
+.coluna {
+  flex: 1 calc(22%);
+  max-width: calc(22%);
+  background-color: rgb(247, 247, 247);
+  border: 1px solid black;
+  border-radius: 10%;
+  text-align: center;
+  height: 300px;
+  margin: 1%;
+}
+
+.coluna p {
+  font-size: 16px;
+}
+
+.coluna button {
+  border-radius: 10%;
+  margin-top: 30%;
+}
+
+.coluna button:hover {
+  background-color: rgb(0, 122, 163);
+}
+
+.cadastro button {
+  border-radius: 10%;
+}
+
+.cadastro button:hover {
+  background-color: rgb(0, 122, 163);
+}
+
+.content {
+  margin-bottom: 10%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 5%;
+  background-color: rgb(0, 122, 163);
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
